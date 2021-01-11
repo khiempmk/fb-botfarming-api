@@ -1,0 +1,71 @@
+INSERT INTO users (name, user_login, user_password, status )
+ VALUES ('pham minh khiem','khiempmk', 'khiem@123', 1);
+ INSERT INTO users (name, user_login, user_password, status )
+ VALUES ('nguyen minh anh','anm', 'anm@123', 1);
+ INSERT INTO users (name, user_login, user_password, status )
+ VALUES ('nguyen minh tan','tannminh21', 'tan@123', 1);
+ INSERT INTO users (name, user_login, user_password, status )
+ VALUES ('hoang minh tan','tannmih1', 'tan2323', 1);
+ 
+ INSERT INTO bot_otp (uid, otp_sms)
+ VALUES ('100024047955208','512359');
+  INSERT INTO bot_otp (uid, otp_sms)
+ VALUES ('100028207007138','512352');
+ INSERT INTO bot_otp (uid, otp_sms)
+ VALUES ('100028354235029','512342');
+ 
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('0','100024047955208',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('1','100028207007138',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('2','100028354235029',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('3','100028336571952',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('3','100024047955208',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('2','100028207007138',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('1','100028354235029',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('0','100028336571952',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('1','100024047955208',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('2','100028207007138',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('3','100028354235029',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('0','100028336571952',false,false);
+VALUES ('2','100024047955208',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('3','100028207007138',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('0','100028354235029',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('1','100028336571952',false,false);
+VALUES ('2','100024047955208',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('2','100028207007138',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('2','100028354235029',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('2','100028336571952',false,false);
+VALUES ('1','100024047955208',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('1','100028207007138',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('1','100028354235029',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('1','100028336571952',false,false);
+VALUES ('3','100024047955208',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('3','100028207007138',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('3','100028354235029',false,false);
+INSERT INTO job_bot (job_type, uid,is_completed,is_processed)
+VALUES ('3','100028336571952',false,false);
+ 
+ 
+ 

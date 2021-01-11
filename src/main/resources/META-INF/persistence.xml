@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+
+    <persistence-unit name="NewPersistenceUnit">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity.BotCrawlerEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity.BotIpEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity.BotOtpEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity.BotProfileEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity.BotStatusEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity.BotHistoryEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity.JobBotEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity.UsersEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity1.BotCrawlerEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity1.BotHistoryEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity1.BotIpEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity1.BotOtpEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity1.BotProfileEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity1.BotStatusEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity1.JobBotEntity</class>
+        <class>viettel.vtcc.crawler.fb_bot.manage.entity1.UsersEntity</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/botfb_db_v3"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.username" value=""/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>
